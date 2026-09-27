@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Reels Feed Final",
+    "slug": "reels-feed-final",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "supportsTablet": false
+    }
+  }
+}
