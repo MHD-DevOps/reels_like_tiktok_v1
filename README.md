@@ -7,11 +7,7 @@ This project uses Expo SDK 57, React Native 0.86, FlashList and expo-video.
 - One `VideoView` lives inside each visible FlashList cell.
 - Persistent `VideoPlayer` instances are keyed by Reel ID.
 - Current Reel plus three previous and three next Reels are preloaded.
-- `useCaching: true` is enabled for created players.
-- A video is never hidden just because it enters a `loading` state.
-- After the first frame has rendered, a network rebuffer pauses playback and shows a small translucent loader over the existing video frame.
-- The black background is never used as the rebuffer loading overlay.
-- `retry()` is only used for actual playback errors.
+
 
 ## Run
 
